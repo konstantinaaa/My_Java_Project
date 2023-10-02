@@ -10,7 +10,7 @@ public class Count_Digits_of_a_number {
         int count = 0;
         while(number > 0)
         {
-            number = number / 10;
+            number = number / 10; // Divide number by 10, effectively removing its rightmost digit.
             count ++;
         }
         System.out.println(count);
