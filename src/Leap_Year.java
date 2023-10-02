@@ -2,8 +2,11 @@ import java.util.Scanner;
 
 public class Leap_Year {
     public static void main(String[] args) {
-        // Find a given year is a leap year. Extra leap day occurs in each year that is an integer multiple of 4 
-        // (except for years evenly divisible by 100, but not by 400).
+        // Find a given year is a leap year. 
+        // if (year is not divisible by 4) then (it is an ordinary year)
+        //else if (year is not divisible by 100) then (it is a leap year)
+        //else if (year is not divisible by 400) then (it is an ordinary year)
+        //else (it is a leap year)
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter a year number:");
